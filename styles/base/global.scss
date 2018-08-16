@@ -43,4 +43,20 @@ p {
   margin: 0 auto;
 }
 
+.section {
 
+  padding: 6.250em 0;
+
+  &-main {
+
+    h1.title {
+
+      padding: 0 9.459em;
+    }
+
+    .sub-title {
+
+      padding: 0 13.333em 5em 13.333em;
+    }
+  }
+}
