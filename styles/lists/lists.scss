@@ -2,3 +2,24 @@
 Lists style
 */
 
+.list {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin:0 0 1.25em 1em;
+
+	li {
+		font-size: .938em;
+		font-weight: 300;
+		color: #2ca1e0;
+
+		span {
+
+			color: $color-primary;
+		}
+
+		&:not(:last-child) {
+
+			margin-bottom: .6em;
+		}
+	}
+}

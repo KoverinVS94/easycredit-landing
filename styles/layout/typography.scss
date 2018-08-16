@@ -16,3 +16,27 @@ h1.title {
 	font-weight: 300;
 	text-align: center;
 }
+
+h2.title {
+	margin-bottom: 1.189em;
+	color: $color-title;
+	font-family: $font-secondary;
+	font-size: 1.875em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.section-info {
+
+	p {
+		margin-bottom: 1.5em;
+		font-size: .938em;
+		font-weight: 300;
+	}
+
+	.strong {
+		font-size: 1em;
+		color: #535353;
+		font-weight: bold;
+	}
+}
