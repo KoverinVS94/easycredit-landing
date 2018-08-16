@@ -1,2 +1,2 @@
-# pozichka landing 0618
+# easycredit landing 0818
 
