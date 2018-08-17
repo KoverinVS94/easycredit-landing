@@ -3,9 +3,11 @@ Lists style
 */
 
 .list {
+	margin:0 0 1.25em 1em;
+
 	list-style-type: disc;
 	list-style-position: inside;
-	margin:0 0 1.25em 1em;
+
 
 	li {
 		font-size: .938em;

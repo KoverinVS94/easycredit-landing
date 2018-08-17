@@ -59,8 +59,8 @@ p {
 
   > .container {
 
-    @include breakpoint($laptop-small) {
-
+    @include breakpoint($mobile) {
+      
       padding: 0 1.5em;
     }
 
@@ -69,8 +69,8 @@ p {
       padding: 0 5em;
     }
 
-    @include breakpoint($mobile) {
-      
+    @include breakpoint($laptop-small) {
+
       padding: 0 1.5em;
     }
   }
