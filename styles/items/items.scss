@@ -3,17 +3,29 @@
 */
 
 .wrap-items-credit {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
-	@include justify-content;
+	@include breakpoint($tablet-l) {
 
-	&:not(:last-child) {
+		justify-content: space-around;
+	}
 
-		margin-bottom: 50px;
+	@include breakpoint($mobile-p) {
+
+		justify-content: center;
+	}
+
+	@include breakpoint($mobile-l) {
+
+		justify-content: space-around;
 	}
 
 	.item {
 		width: 270px;
 
+		margin-bottom: 50px;
 		padding: 2.125em 1.25em 1.313em;
 
 		box-shadow: 1px 2px 5px rgba(0, 2, 0, 0.1);
@@ -23,6 +35,11 @@
 
 		background-color: #fafafa;
 		background-image: linear-gradient(to top, #f7f7f7 0%, #ffffff 100%);
+
+		&:nth-child(4) {
+
+			clear: both;
+		}
 
 		&:hover {
 			background-color: #fff;

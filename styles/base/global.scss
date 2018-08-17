@@ -47,6 +47,34 @@ p {
 
   padding: 6.250em 0;
 
+  @include breakpoint($mobile) {
+      
+    padding: 2em 0;
+  }
+
+  @include breakpoint($tablet) {
+      
+    padding: 3em 0;
+  }
+
+  > .container {
+
+    @include breakpoint($laptop-small) {
+
+      padding: 0 1.5em;
+    }
+
+    @include breakpoint($tablet) {
+      
+      padding: 0 5em;
+    }
+
+    @include breakpoint($mobile) {
+      
+      padding: 0 1.5em;
+    }
+  }
+
   &-main {
 
     padding-bottom: 0; 
@@ -54,11 +82,42 @@ p {
     h1.title {
 
       padding: 0 9.459em;
+
+      @include breakpoint($mobile) {
+      
+        padding: 0;
+      }
+
+      @include breakpoint($tablet-p) {
+      
+        padding: 0;
+      }
+
+      @include breakpoint($tablet-l) {
+      
+        padding: 0 4em;
+      }
     }
 
     .sub-title {
 
       padding: 0 13.333em 5em 13.333em;
+
+      @include breakpoint($mobile) {
+      
+        padding: 0 0 5em 0;
+      }
+
+      @include breakpoint($tablet-p) {
+      
+        padding: 0 0 5em 0;
+      }
+
+      @include breakpoint($tablet-l) {
+      
+        padding: 0 5em 5em;
+      }
     }
   }
 }
+

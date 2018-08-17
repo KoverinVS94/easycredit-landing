@@ -184,8 +184,6 @@ export class SectionMain extends React.Component {
                                     <button className={hashClasses["btn-action"]}>Подать заявку</button>
                                 </div>
                             </div>
-                        </div>
-                        <div className={`${hashClasses["row"]} ${hashClasses["wrap-items-credit"]}`}>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
                                     <i className={`${hashClasses["icon"]} ${hashClasses["icon-logo-moneyboom"]}`}/>
