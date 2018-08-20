@@ -54,9 +54,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
@@ -96,9 +94,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
@@ -138,9 +134,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
@@ -180,12 +174,8 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
-                        </div>
-                        <div className={`${hashClasses["row"]} ${hashClasses["wrap-items-credit"]}`}>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
                                     <i className={`${hashClasses["icon"]} ${hashClasses["icon-logo-moneyboom"]}`}/>
@@ -224,9 +214,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
@@ -266,9 +254,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
@@ -308,9 +294,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                             <div className={hashClasses["item"]}>
                                 <div className={hashClasses["item-top"]}>
@@ -350,9 +334,7 @@ export class SectionMain extends React.Component {
                                         общие затраты на займ составляют 17200 грн., APR 396%.
                                     </span>
                                 </div>
-                                <div className={hashClasses["btn-container"]}>
-                                    <button className={hashClasses["btn-action"]}>Подать заявку</button>
-                                </div>
+                                <button className={hashClasses["btn-action"]}>Подать заявку</button>
                             </div>
                         </div>
                     </div>

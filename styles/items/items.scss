@@ -3,40 +3,62 @@
 */
 
 .wrap-items-credit {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
-	@include justify-content;
+	@include breakpoint($mobile-p) {
 
-	&:not(:last-child) {
+		justify-content: center;
+	}
 
-		margin-bottom: 50px;
+	@include breakpoint($mobile-l) {
+
+		justify-content: space-around;
+	}
+
+	&:after {
+
+		@include breakpoint($tablet-l) {
+
+			content: "";
+			flex: 0 1 270px;
+		}
 	}
 
 	.item {
 		width: 270px;
 
+		margin-bottom: 3.125em;
 		padding: 2.125em 1.25em 1.313em;
 
 		box-shadow: 1px 2px 5px rgba(0, 2, 0, 0.1);
 
 		border-radius: 10px;
-		border: 1px solid #e6e6e6;
+		border-top: 1px solid #ededed;
+		border-right: 1px solid #e5e5e5;
+		border-bottom: 1px solid #dedede;
+		border-left: 1px solid #e5e5e5;
 
 		background-color: #fafafa;
 		background-image: linear-gradient(to top, #f7f7f7 0%, #ffffff 100%);
 
+		@include breakpoint($mobile-p) {
+
+			width: 100%;
+		}
+
 		&:hover {
 			background-color: #fff;
 			background-image: none;
+
 			border-top: 1px solid #d2ecfa;
 			border-right: 1px solid #c3e6f9;
 			border-bottom: 1px solid #aaddf9;
 			border-left: 1px solid #c3e6f9;
-			box-shadow: none;
 
-			.btn-action {
+			box-shadow: 0 0 14px rgba(55, 185, 255, 0.2);
 
-				background-color: #37b9ff;
-			}
 		}
 
 		&-top {
@@ -45,7 +67,7 @@
 
 			.icon {
 				display: block;
-				margin: 0 auto 2em auto;
+				margin: 0 auto 1.5em auto;
 			}
 
 			span {
@@ -55,18 +77,28 @@
 
 			.separator {
 				width: 230px;
-				height: 2px;
+				height: 1px;
 
 				margin: 1em auto 0 auto;
 
 				background: #cdcdcd;
 				opacity: 0.47;
+
+				@include breakpoint($mobile-p) {
+
+					width: 220px;
+				}
+
+				@include breakpoint($iphone5-p) {
+
+					width: 200px;
+				}
 			}
 		}
 
 		&-middle {
 
-			padding: 1.563em 0;
+			padding: 1.3em 0;
 			
 			.line {
 				display: table;
