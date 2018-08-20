@@ -69,9 +69,14 @@ p {
       padding: 0 1.5em;
     }
 
-    @include breakpoint($tablet) {
+    @include breakpoint($tablet-p) {
       
       padding: 0 5em;
+    }
+
+    @include breakpoint($tablet-l) {
+      
+      padding: 0 3.8em;
     }
 
     @include breakpoint($laptop-small) {
