@@ -2,8 +2,9 @@
  Buttons style
 */
 .btn-action {
+	display: block;
 	width: 100%;
-	padding: .75em 0;
+	padding: .625em 0;
 
 	color: #fff;
 	font-size: 1em;
@@ -17,6 +18,8 @@
 	border-radius: 10px;
 
 	background-color: #2ca1e0;
+
+	text-align: center;
 
 	&:hover {
 		
